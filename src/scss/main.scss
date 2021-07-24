@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'utils/mixins';
+@import 'components/buttons';
+
+* {
+  outline: 1px solid red !important;
+}
+
+body {
+  display: grid;
+  column-gap: 20px;
+}
