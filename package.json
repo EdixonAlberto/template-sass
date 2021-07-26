@@ -15,10 +15,10 @@
   },
   "scripts": {
     "sass-build": "sass --no-source-map src/scss/main.scss:public/static/css/styles.css",
-    "sass-watch": "sass --watch --embed-source-map src/scss/main.scss:public/static/css/styles.css",
+    "sass-watch": "sass --watch src/scss/main.scss:public/static/css/styles.css",
     "postcss-build": "postcss public/static/css/styles.css --no-map --use autoprefixer -o public/static/css/styles.css",
-    "serve": "live-server public --host=localhost",
-    "dev": "concurrently \"npm run sass-build\" \"npm run serve\"",
+    "serve": "live-server public --host=localhost --port=80",
+    "dev": "concurrently \"npm run sass-watch\" \"npm run serve\"",
     "build": "npm run sass-build && npm run postcss-build",
     "start": "npm run build && npm run serve"
   },

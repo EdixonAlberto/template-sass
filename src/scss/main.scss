@@ -1,12 +1,4 @@
-@import 'variables';
-@import 'utils/mixins';
+@charset 'utf-8';
+@import 'utils/variables', 'utils/mixins', 'utils/typography';
 @import 'components/buttons';
-
-* {
-  outline: 1px solid red !important;
-}
-
-body {
-  display: grid;
-  column-gap: 20px;
-}
+@import 'pages/home';
