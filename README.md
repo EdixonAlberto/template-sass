@@ -1,12 +1,12 @@
 # Template Sass
 
-Template for creating projects using sass
+Template for creating websites using Sass.
 
 ![template](https://repository-images.githubusercontent.com/388659547/a4de4abf-b9b7-4e87-965f-448d5e3fac32)
 
 In this template you will find a project structure ready to start building websites with
-SASS. This folder structure for sass is based on the following
-[guide](https://sass-guidelin.es/)
+Sass in a maintainable and scalable way. The following [guide](https://sass-guidelin.es/)
+was taken as a reference to create the directory structure for Sass.
 
 ### Technologies List
 
@@ -15,7 +15,7 @@ SASS. This folder structure for sass is based on the following
 - Browserslist
 - Live Server
 - Prettier
-- Npm commands
+- Npm
 
 ### Command List
 

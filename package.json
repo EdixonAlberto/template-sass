@@ -1,13 +1,16 @@
 {
   "name": "template-sass",
   "version": "0.0.1",
-  "description": "Template for creating projects using sass",
+  "description": "Template for creating websites using sass",
   "keywords": [
     "template",
     "sass",
-    "postcss"
+    "postcss",
+    "autoprefixer",
+    "websites"
   ],
   "private": false,
+  "license": "UNLICENSED",
   "author": {
     "name": "Edixon Piña",
     "email": "edixonalbertto@gmail.com",
