@@ -7,7 +7,7 @@
     "sass",
     "postcss",
     "autoprefixer",
-    "websites"
+    "sass-autoprefixer"
   ],
   "license": "UNLICENSED",
   "private": false,
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "lint": "prettier --write public/*.html src/**/*.scss",
-    "sass-build": "sass --no-source-map src/scss/main.scss:public/static/css/styles.css",
+    "sass-build": "sass --style=compressed --no-source-map src/scss/main.scss:public/static/css/styles.css",
     "sass-watch": "sass --watch src/scss/main.scss:public/static/css/styles.css",
     "postcss-build": "postcss public/static/css/styles.css --no-map --use autoprefixer -o public/static/css/styles.css",
     "serve": "live-server public --host=localhost --port=80",

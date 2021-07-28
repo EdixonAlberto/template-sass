@@ -8,6 +8,9 @@ In this template you will find a project structure ready to start building websi
 Sass in a maintainable and scalable way. The following [guide](https://sass-guidelin.es/)
 was taken as a reference to create the directory structure for Sass.
 
+> **NOTE:** This template will be in constant evoluction, feel free to create a
+> [pull request](https://github.com/EdixonAlberto/template-sass/pulls) to improve it.
+
 ### Technologies List
 
 - Sass
@@ -25,4 +28,6 @@ npm run dev # To run project in development modo
 npm run build # To build project in production modo
 
 npm run start # To build and run the project locally in production mode
+
+npm run lint # Format code with prettier
 ```
