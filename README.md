@@ -20,6 +20,13 @@ was taken as a reference to create the directory structure for Sass.
 - Prettier
 - Npm
 
+### Getting Started
+
+```sh
+npm install
+npm run dev
+```
+
 ### Command List
 
 ```sh
